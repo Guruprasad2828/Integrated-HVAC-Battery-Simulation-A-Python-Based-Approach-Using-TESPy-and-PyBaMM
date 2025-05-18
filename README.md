@@ -28,3 +28,7 @@ Both TESPy and PyBaMM are modular; the user must carefully build the integration
 
 7) ##### Battery Model Comparison Challenges
 Resistance curves or voltage responses from PyBaMM may not match GT-Suite or Simscape directly due to solver differences, making cross-tool comparisons unreliable without calibration.
+
+# Assumptions:
+
+ Both the TESPy and PyBaMM models developed are relatively simple; however, each library offers strong potential for modeling more complex systems. Integrating the two standalone models is challenging, as it can result in under- or over-constraining the overall system. 
